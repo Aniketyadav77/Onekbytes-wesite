@@ -250,37 +250,37 @@ export default function Home() {
         <div className="flex items-center justify-center gap-12 -mt-16">
           {/* MITS Logo (left) + Label */}
           <div className="flex flex-col items-center gap-4">
-            <div className="relative w-40 h-40 rounded-full overflow-hidden border border-white/20 shadow-2xl">
+             <div className="relative w-24 h-24 rounded-full overflow-hidden border border-white/20 shadow-2xl">
               <Image
                 src="/images/mits_logo.jpg"
                 alt="MITS Logo"
-                width={160}
-                height={160}
+                 width={96}
+                 height={96}
                 className="object-cover"
                 priority
               />
             </div>
-            <p className="text-center text-slate-400 font-light tracking-tight text-2xl sm:text-3xl md:text-5xl lg:text-6xl">
+             <p className="text-center text-slate-400 font-light tracking-tight text-lg sm:text-xl md:text-2xl lg:text-3xl">
               MITS Gwalior
             </p>
           </div>
           {/* X sign (center) */}
-          <div className="flex items-center justify-center text-white/80 font-bold text-[10rem] leading-none select-none -mt-2">
-            ×
-          </div>
+           <div className="flex items-center justify-center text-white/80 font-bold text-[6rem] leading-none select-none -mt-2">
+             ×
+           </div>
           {/* IIT Roorkee Logo (right) + Label */}
           <div className="flex flex-col items-center gap-4">
-            <div className="relative w-40 h-40 rounded-full overflow-hidden border border-white/20 shadow-2xl">
+             <div className="relative w-24 h-24 rounded-full overflow-hidden border border-white/20 shadow-2xl">
               <Image
                 src="/images/iitr_logo.png"
                 alt="IIT Roorkee Logo"
-                width={160}
-                height={160}
+                 width={96}
+                 height={96}
                 className="object-cover"
                 priority
               />
             </div>
-            <p className="text-center text-slate-400 font-light tracking-tight text-2xl sm:text-3xl md:text-5xl lg:text-6xl">
+             <p className="text-center text-slate-400 font-light tracking-tight text-lg sm:text-xl md:text-2xl lg:text-3xl">
               IIT Roorkee
             </p>
           </div>
